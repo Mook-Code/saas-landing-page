@@ -1,0 +1,43 @@
+.c-button {
+  width: 100%;
+  max-width: 285px;
+  height: 60px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+  text-decoration: none;
+  transition: 0.1s all linear;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c-button__text {
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--purple);
+  font-weight: var(--medium);
+  transition: 0.1s all linear;
+  font-family: 'DM Sans', sans-serif;
+  letter-spacing: 0.19px;
+}
+
+.c-button--dark-orange {
+    background-color: var(--dark-orange);
+}
+
+.c-button--dark-orange .c-button__text {
+    color: var(--white);
+}
+
+.c-button--orange {
+  max-width: 211px;
+  height: 60px;
+  background-color: var(--orange);
+}
+
+.c-button--orange .c-button__text{
+  color: var(--white);
+} 

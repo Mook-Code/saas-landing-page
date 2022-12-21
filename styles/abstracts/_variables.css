@@ -1,0 +1,16 @@
+:root {
+  /* Colors */
+  --white: #ffffff;
+  --black: #19191B;
+  --purple: #5454D4;
+  --orange: #FF7143;
+  --dark-orange: #9F3919;
+  --gray: #F8F8F8;
+  --Light-black:#696871;
+
+  /* Weights   */
+  --normal: 400;
+  --medium: 500;
+  --semibold: 600;
+  --bold: 700;
+}

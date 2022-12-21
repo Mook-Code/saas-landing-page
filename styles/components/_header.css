@@ -1,0 +1,37 @@
+.c-header {
+display: flex;
+width: 100%;
+}
+
+.c-header__logo {
+  
+}
+.c-header__figure {
+
+  
+}
+.c-header__navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.c-header__unlist {
+display: flex;
+list-style: none;
+width: 256px;
+justify-content: space-between;
+}
+
+.c-header__item {
+
+  
+}
+.c-header__link {
+  color: var(--black);
+  text-decoration: none;
+  
+}
+.c-button-header {
+  margin: 0;
+}
